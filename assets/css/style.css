@@ -1,0 +1,84 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url('../images/too-many-bunnies.jpg');
+}
+
+h1 {
+  font-family: 'Modak', cursive;
+  font-size: 172px;
+  color: ghostwhite;
+  text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0, 0, 0, .1),
+    0 0 5px rgba(0, 0, 0, .1),
+    0 1px 3px rgba(0, 0, 0, .3),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15);
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: bold;
+  color: ghostwhite;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.6),
+    0px 8px 13px rgba(0, 0, 0, 0.3),
+    0px 18px 23px rgba(0, 0, 0, 0.3);
+
+}
+
+.row {
+  min-height: 100px;
+}
+
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.container {
+  border: 2px solid ghostwhite;
+  margin-bottom: 100px;
+}
+
+textarea {
+  color: darkblue;
+  font-size: 21px;
+  padding: 10px;
+  overflow: scroll;
+  border: 2px solid ghostwhite;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button {
+  font-size: 36px;
+  border: 2px solid ghostwhite;
+  color: darkblue border: 2px solid ghostwhite;
+  background: lightgreen;
+}
+
+button:hover {
+  background: #81d681;
+}
+
+button:focus {
+  outline: none;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkblue;
+  font-size: 28px;
+  font-weight: bold;
+  border: 2px solid ghostwhite;
+  background: lightskyblue;
+}
