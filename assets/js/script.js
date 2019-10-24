@@ -25,7 +25,7 @@ $('button').on('click', function () {
 });
 
 function updatePage() {
-  today.text('It is ' + moment().format('MMMM Do YYYY, h:mm:ss a') + '.');
+  today.text('Today is ' + moment().format('MMMM Do YYYY, h:mm:ss a') + '.');
 
   switch (moment().format('h')) {
     case '9':
@@ -73,5 +73,7 @@ function updatePage() {
       $('#5p').children('textarea').css('background-color', '#ffccff');
       $('#5p').nextAll().children('textarea').css('background-color', '#ffffcc');
       break;
+    default:
+      $('textarea').css('background-color', '#ffffcc');
   }
 }
