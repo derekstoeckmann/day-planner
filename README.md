@@ -23,7 +23,7 @@ For further instructions, visit https://help.github.com.
 
 ## Link
 
-Visit https://derekstoeckmann.github.io/day-planner/ and take a quiz!
+Visit https://derekstoeckmann.github.io/day-planner/ and plan your day!
 
 ## Future_Improvements
 
