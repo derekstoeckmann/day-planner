@@ -3,15 +3,26 @@
 ## Table of Contents
 
 - [Description](#description)
+- [Usage](#usage)
 - [Installation](#installation)
 - [Link](#link)
-- [Future_Improvements](#future_improvements)
+- [Wishlist](#wishlist)
 - [Credits](#credits)
 - [License](#license)
 
 ## Description
 
 This is a day planning app that splits the day into hours and allows the user to write todos/notes and saves them in localStorage. It also updates the current time dynamically by using Moment.js.
+
+## Usage
+
+Upon visiting the app, you will see the current day and time, as well as a section that displays rows representing hour segments in the day:
+
+![Main section](screenshots/main-section.png?raw=true "Main section")
+
+In each hour row, you can add notes or todo items. When you click the green save button on the right, the text is saved in local storage:
+
+![Hour sections](screenshots/hour-sections.png?raw=true "Hour sections")
 
 ## Installation
 
@@ -25,7 +36,7 @@ For further instructions, visit https://help.github.com.
 
 Visit https://derekstoeckmann.github.io/day-planner/ and plan your day!
 
-## Future_Improvements
+## Wishlist
 
 In the future, I'd like to add:
 
